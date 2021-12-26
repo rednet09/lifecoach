@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(images/banner.jpg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.navbar {
+  width: 85;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 200px;
+  cursor: pointer;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+.navbar ul li::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background: skyblue;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.navbar ul li:hover::after {
+  width: 100%;
+}

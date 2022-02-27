@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Life coach</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="bi bi-x" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html.html">ABOUT US</a></li>
+            <li><a href="services.html.html">SERVICES</a></li>
+            <li><a href="">TESTIMONILAS</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="contact.html.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="bi bi-list" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+    <!-- aboout us contetnt sectiion -->
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>Our approach to life coaching</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi
+            assumenda, quod fugiat nihil quam quis atque aspernatur quisquam,
+            nostrum perspiciatis, facilis ducimus dolores recusandae excepturi
+            cumque officiis sapiente reprehenderit eum? Molestiae nesciunt,
+            tempore pariatur laboriosam expedita nisi. Repellendus sit aliquam
+            iusto delectus ipsum autem quas inventore rem facilis minus at
+            voluptate enim illum recusandae, expedita officia, accusantium,
+            veritatis possimus vitae! Sit minima neque dolores perspiciatis ab,
+            vel, animi vero, saepe quam accusantium consequuntur voluptatum
+            repellendus quia. Labore neque nostrum veritatis voluptas inventore.
+            Dolore voluptatem eius impedit ducimus ab molestiae explicabo.
+            Eveniet consequuntur nihil non nobis architecto accusamus pariatur,
+            eum repellendus dolorem repudiandae, illo id molestiae rem. Culpa
+            sunt alias natus quod sit perspiciatis excepturi inventore, fuga
+            reiciendis rem illo labore!
+          </p>
+          <a href="" class="hero-btn blue-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+          <img src="images/about2.jpeg" />
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel?</p>
+      <div class="icons">
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-linkedin"></i>
+      </div>
+      <p>made with <i class="bi bi-suit-heart-fill"></i> by Dhiraj Naik</p>
+    </section>
+
+    <!-- toggle menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

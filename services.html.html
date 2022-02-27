@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Life coach</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="bi bi-x" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html.html">ABOUT US</a></li>
+            <li><a href="services.html.html">SERVICES</a></li>
+            <li><a href="">TESTIMONILAS</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="contact.html.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="bi bi-list" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Services</h1>
+    </section>
+    <!-- Services sectiion -->
+    <section class="Services">
+      <h1>Services We Provide</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ducimus
+        provident explicabo vero beatae fugit. Incidunt deleniti eveniet,
+        facilis, a maxime odio aspernatur dolorem praesentium placeat odit quos
+        id ab.
+      </p>
+      <div class="row">
+        <div class="services-col">
+          <h3>Life Coaching</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum,
+            autem laudantium. Eos tempore maxime aliquid consectetur, in laborum
+            obcaecati unde, necessitatibus ipsa fuga quia, explicabo maiores
+            asperiores cum est molestiae!
+          </p>
+        </div>
+        <div class="services-col">
+          <h3>Leadership Coaching</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum,
+            autem laudantium. Eos tempore maxime aliquid consectetur, in laborum
+            obcaecati unde, necessitatibus ipsa fuga quia, explicabo maiores
+            asperiores cum est molestiae!
+          </p>
+        </div>
+        <div class="services-col">
+          <h3>Wellness Coaching</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum,
+            autem laudantium. Eos tempore maxime aliquid consectetur, in laborum
+            obcaecati unde, necessitatibus ipsa fuga quia, explicabo maiores
+            asperiores cum est molestiae!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel?</p>
+      <div class="icons">
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-linkedin"></i>
+      </div>
+      <p>made with <i class="bi bi-suit-heart-fill"></i> by Dhiraj Naik</p>
+    </section>
+
+    <!-- toggle menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
